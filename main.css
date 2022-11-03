@@ -1,0 +1,29 @@
+.heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media (max-width: 700px) {
+  body {
+    background-color: #4d86be;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  body {
+    background-color: #0f0;
+  }
+  .heading {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: #ff0;
+  }
+  .heading {
+    font-size: 6em;
+  }
+}
